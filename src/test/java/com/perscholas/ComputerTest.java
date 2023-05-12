@@ -30,7 +30,7 @@ class ComputerTest {
     void add_method_should_return_added_value_given_two_int_number() {
         Computer computer = new Computer();
         int result = computer.add(4, 5);
-        Assertions.assertEquals(9, result);
+        Assertions.assertEquals(9, result, "if displayed only case of test failure");
     }
 
     @Test
